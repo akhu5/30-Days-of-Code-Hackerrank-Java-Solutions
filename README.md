@@ -1,2 +1,2 @@
 ﻿# 30-Days-of-Code-Hackerrank-Java-Solutions
-Hackerrank's 30 Days of Code Solved in Python!
+Hackerrank's 30 Days of Code Solved in Java 8!
