@@ -1,10 +1,9 @@
-import java.io.*;
 import java.util.*;
 
-class Person {
+class Persons {
     private int age;
 
-    public Person(int initialAge) {
+    public Persons(int initialAge) {
         if (initialAge > 0)
             age = initialAge;
         else {
@@ -31,7 +30,7 @@ class Person {
         int T = sc.nextInt();
         for (int i = 0; i < T; i++) {
             int age = sc.nextInt();
-            Person p = new Person(age);
+            Persons p = new Persons(age);
             p.amIOld();
             for (int j = 0; j < 3; j++) {
                 p.yearPasses();
